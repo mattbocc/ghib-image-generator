@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Matthew Boccalon <matthew.boccalon@live.ca>"]
+channels = ["conda-forge"]
+name = "card-builder"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+openai = ">=1.100.3,<2"
+python-dotenv = ">=1.1.1,<2"
+pillow = ">=11.3.0,<12"
