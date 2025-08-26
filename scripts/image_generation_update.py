@@ -41,7 +41,7 @@ response = client.responses.create(
             ],
         }
     ],
-    tools=[{"type": "image_generation", "size": "1024x1024"}],
+    tools=[{"type": "image_generation", "size": "1536x1024"}],
 )
 
 image_generation_calls = [
